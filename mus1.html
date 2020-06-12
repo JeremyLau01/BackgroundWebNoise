@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html>
-<body>
 
-<h1>music = relax</br>no sound = work</h1>
+<script>
+var x = document.getElementById("omsound");
 
-<audio controls autoplay>
-  <source src= (/omsound.mp3) type="audio/mpeg">
-</audio>
+function playAudio() {
+  x.play();
+}
+</script>
 
-</body>
-</html>
+playAudio();
